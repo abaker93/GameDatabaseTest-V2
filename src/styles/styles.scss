@@ -1,5 +1,67 @@
+@import "base/base-index";
+@import "components/components-index";
+
 html,
 body {
-  background: blue;
-  font-family: sans-serif;
+  font-family: 'SegoeUI', sans-serif;
+  font-size: 15px;
+  font-size: 1em;
+  letter-spacing: 0.01rem;
+  color: $gray1;
+  background-color: $gray2;
+  background-image: url('./img/bg-pattern.svg');
+  background-size: 70px;
+  background-attachment: fixed;
+
+  header.page-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+    .title {
+      width: 100%;
+      background-color: $teal;
+      color: $white;
+      padding: 14px;
+      position: relative;
+      text-align: center;
+      box-sizing: border-box;
+
+      .logo, h1 {
+        display: inline-grid;
+        vertical-align: middle;
+      }
+
+      .logo {
+        height: 25px;
+        margin-right: 20px;
+      }
+
+      .user {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        width: 100%;
+        text-align: right;
+  
+        > * {
+          display: inline-grid;
+          vertical-align: middle;
+        }
+  
+        .light-mode { height: 19px; }
+  
+        .user-img { height: 27px; }
+
+        ul.user-menu {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+  
+      }
+
+    }
+
+  }
 }
