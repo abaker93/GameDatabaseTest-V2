@@ -1,0 +1,11 @@
+$overlay-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+
+$column-widths: (260px, 140px, 120px, 73px, 84px, 86px, 70px, 91px, 78px, 85px, 124px, 100px);
+
+@each $width in $column-widths {
+  $i: index($column-widths, $width);
+
+  .table-header div:nth-child(#{$i}) {
+    width: $width;
+  }
+}

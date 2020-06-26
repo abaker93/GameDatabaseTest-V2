@@ -49,16 +49,111 @@ body {
           vertical-align: middle;
         }
   
-        .light-mode { height: 19px; }
+        .light-mode {
+          height: 19px;
+          margin-right: 20px;
+        }
   
         .user-img { height: 27px; }
 
         ul.user-menu {
           position: absolute;
           right: 0;
-          top: 0;
+          top: 30px;
+          padding: 10px 15px;
+          background-color: $white;
+          color: $gray1;
+          border-radius: 3px;
+          border: 1px solid $gray3;
+          box-shadow: $overlay-box-shadow;
+          text-align: left;
+          z-index: 20;
+          min-width: 180px;
+
+          li {
+            margin-bottom: 15px;
+
+            &.user-name {
+              font-weight: 700;
+              font-size: 0.9rem;
+              letter-spacing: 0.02em;
+              padding-bottom: 12px;
+              border-bottom: 2px solid $gray3;
+            }
+          
+            img {
+              height: 0.9rem;
+              padding: 0 7px 0 10px;
+            }
+          
+          }
+
         }
   
+      }
+
+    }
+
+    nav.tab-menu {
+      background-color: $teal;
+      position: relative;
+      box-shadow: 0 3px 4px rgba(0, 0, 0, 0.16);
+      z-index: 1;
+
+      li {
+        display: inline-block;
+        padding: 20px;
+
+        &.active {
+          border-bottom: 4px solid $white;
+        
+          a { opacity: 1; }
+
+        }
+
+        a {
+          color: $white;
+          opacity: 0.5;
+          font-weight: 700;
+        }
+
+      }
+
+    }
+
+    .table-header {
+      background-color: $gray4;
+      border-bottom: 1px solid $gray3;
+      position: relative;
+      padding-left: 20px;
+
+      div {
+        display: inline-block;
+        border-right: 1px solid $gray5;
+        padding: 7px;
+        position: relative;
+
+        > * { display: inline-block; }
+
+        input[type='checkbox'] {
+          height: 0.8em;
+          margin-right: 30px;
+        }
+
+        img.icon {
+          height: 0.8em;
+          margin-right: 3px;
+        }
+
+        img.drop-down {
+          @extend img.icon;
+          opacity: 0.5;
+          float: right;
+        
+          &:hover, &focus { opacity: 1; }
+        
+        }
+
       }
 
     }

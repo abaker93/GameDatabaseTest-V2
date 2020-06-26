@@ -56,79 +56,97 @@ const App = () => (
 				</ul>
 			</nav>
 
-			<table>
-				<thead>
-					<tr>
-						<td>
-							<input className="selectAll" type="checkbox" />
-							<p>
-								<img
-									className="icon"
-									src="./src/img/icons/single-line-text.svg"
-									alt="single line text"
-								/>
-								Console Name
-							</p>
-							<img className="icon" src="./src/img/icons/arrow-down.svg" alt="more" />
-						</td>
-						<td>
-							<p>
-								<img
-									className="icon"
-									src="./src/img/icons/formula.svg"
-									alt="formula"
-								/>
-								Total Consoles
-							</p>
-							<img className="icon" src="./src/img/icons/arrow-down.svg" alt="more" />
-						</td>
-						<td>
-							<p>
-								<img
-									className="icon"
-									src="./src/img/icons/formula.svg"
-									alt="formula"
-								/>
-								Total Games
-							</p>
-							<img className="icon" src="./src/img/icons/arrow-down.svg" alt="more" />
-						</td>
-						<td>
-							<p>
-								<img
-									className="icon"
-									src="./src/img/icons/formula.svg"
-									alt="formula"
-								/>
-								CIB
-							</p>
-							<img className="icon" src="./src/img/icons/arrow-down.svg" alt="more" />
-						</td>
-						<td>
-							<p>
-								<img
-									className="icon"
-									src="./src/img/icons/formula.svg"
-									alt="formula"
-								/>
-								Loose
-							</p>
-							<img className="icon" src="./src/img/icons/arrow-down.svg" alt="more" />
-						</td>
-						<td>
-							<p>
-								<img
-									className="icon"
-									src="./src/img/icons/formula.svg"
-									alt="formula"
-								/>
-								Other
-							</p>
-							<img className="icon" src="./src/img/icons/arrow-down.svg" alt="more" />
-						</td>
-					</tr>
-				</thead>
-			</table>
+			<section class="table-header">
+				<div class="col">
+					<input className="selectAll" type="checkbox" />
+					<p>
+						<img
+							className="icon"
+							src="./img/icon/single-line-text.svg"
+							alt="single line text"
+						/>
+						Console Name
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						Total Consoles
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						Total Games
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						CIB
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						Loose
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						Other
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						SIB
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						Digital
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						Paid
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						Value
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						Appreciation
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+				<div>
+					<p>
+						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						Wish List
+					</p>
+					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+				</div>
+			</section>
 		</header>
 	</div>
 );
