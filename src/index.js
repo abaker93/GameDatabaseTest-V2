@@ -58,21 +58,21 @@ const App = () => (
 
 			<section className="sort-filter">
 				<ul>
-					<li className="view active">
+					<li className="view">
 						<div className="dropdown-trigger">
 							<img className="icon" src="./img/icon/arrow-down.svg" alt="more" />
 							<img className="icon" src="./img/icon/view-grid.svg" alt="grid view" />
 							<p>Master View</p>
 						</div>
-						<ul className="dropdown">
+						<ul className="dropdown hidden">
 							<li className="search">
 								<input type="search" placeholder="Find a view" />
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img className="icon" src="./img/icon/view-grid.svg" alt="views" />
 								<p>Master View</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img className="icon" src="./img/icon/view-grid.svg" alt="views" />
 								<p>Behind the scenes</p>
 							</li>
@@ -83,119 +83,119 @@ const App = () => (
 							<img className="icon" src="./img/icon/hide.svg" alt="hide fields" />
 							<p>16 hidden fields</p>
 						</div>
-						<ul className="dropdown">
+						<ul className="dropdown hidden">
 							<li className="search">
 								<input type="search" placeholder="Find a field" />
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>Total Consoles</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>Total Games</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>CIB</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>Loose</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>Other</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>SIB</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>Digital</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Paid [Consoles]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Paid [Games]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>Paid</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Value [Consoles]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Value [Games]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>Value</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>Appreciation</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Want [Consoles]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Want [Games]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Company</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Games [Link]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Consoles [Link]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Consoles</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-on.svg" alt="switch on" />
 								<p>Wish List</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Amiibo</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Behind</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Paid [Amiibo]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Value [Amiibo]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Want [Amiibo]</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Games copy</p>
 							</li>
-							<li reorder>
+							<li reorder="true">
 								<img src="./img/icon/switch-off.svg" alt="switch off" />
 								<p>Controllers copy</p>
 							</li>
@@ -213,11 +213,11 @@ const App = () => (
 									<li>
 										<p>Where</p>
 									</li>
-									<li>
+									<li dropdown="true">
 										<p>Console</p>
 										<img src="./img/icon/arrow-down.svg" alt="views" />
 									</li>
-									<li>
+									<li dropdown="true">
 										<p>contains</p>
 										<img src="./img/icon/arrow-down.svg" alt="views" />
 									</li>
@@ -229,15 +229,15 @@ const App = () => (
 							<li>
 								<ul className="filter-options">
 									<img src="./img/icon/times.svg" alt="delete" />
-									<li>
+									<li dropdown="true">
 										<p>And</p>
 										<img src="./img/icon/arrow-down.svg" alt="views" />
 									</li>
-									<li>
+									<li dropdown="true">
 										<p>Console</p>
 										<img src="./img/icon/arrow-down.svg" alt="views" />
 									</li>
-									<li>
+									<li dropdown="true">
 										<p>contains</p>
 										<img src="./img/icon/arrow-down.svg" alt="views" />
 									</li>
@@ -271,7 +271,7 @@ const App = () => (
 									<li>
 										<p>from</p>
 									</li>
-									<li className="buttonGroup">
+									<li className="button-group">
 										<input
 											className="active"
 											type="button"
@@ -294,7 +294,7 @@ const App = () => (
 									<li>
 										<p>from</p>
 									</li>
-									<li className="buttonGroup">
+									<li className="button-group">
 										<input
 											className="button"
 											type="button"
@@ -335,16 +335,16 @@ const App = () => (
 									<li>
 										<p>from</p>
 									</li>
-									<li className="buttonGroup">
+									<li className="button-group">
 										<input
 											className="button active"
 											type="button"
-											value="A &RightArrow; Z"
+											value="A &rarr; Z"
 										/>
 										<input
 											className="button"
 											type="button"
-											value="Z &RightArrow; A"
+											value="Z &larr; A"
 										/>
 									</li>
 								</ul>
@@ -362,16 +362,16 @@ const App = () => (
 									<li>
 										<p>from</p>
 									</li>
-									<li className="buttonGroup">
+									<li className="button-group">
 										<input
 											className="button"
 											type="button"
-											value="A &RightArrow; Z"
+											value="A &rarr; Z"
 										/>
 										<input
 											className="button active"
 											type="button"
-											value="Z &RightArrow; A"
+											value="Z &larr; A"
 										/>
 									</li>
 								</ul>
@@ -387,7 +387,7 @@ const App = () => (
 							<img src="./img/icon/search.svg" alt="search" />
 						</div>
 						<ul className="dropdown hidden">
-							<li>
+							<li className="search">
 								<input type="search" placeholder="Find in view" />
 							</li>
 						</ul>
