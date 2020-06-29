@@ -13,12 +13,13 @@ body {
   background-size: 70px;
   background-attachment: fixed;
 
-  .hidden { display: none; }
+  .hidden { display: none !important; }
 
   header.page-header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 1;
     
     .title {
       width: 100%;
@@ -304,30 +305,45 @@ body {
 
     }
 
+
+  }
+
+  main#table {
+    white-space: nowrap;
+    overflow: auto;
+    width: 100vw;
+    height: calc(100% - 166px);
+    
+    .test { width: 100vw; white-space: normal; }
+
     .table-header {
       background-color: $gray4;
+      background-attachment: fixed;
       border-bottom: 1px solid $gray3;
       position: relative;
       padding-left: 20px;
-
+      top: 0;
+  
       div {
         display: inline-block;
         border-right: 1px solid $gray5;
-        padding: 7px;
+        padding: 9px 7px;
         position: relative;
 
+        &:last-child { border-right: none; }
+  
         > * { display: inline-block; }
-
+  
         input[type='checkbox'] {
           height: 0.8em;
           margin-right: 30px;
         }
-
+  
         img.icon {
           height: 0.8em;
           margin-right: 3px;
         }
-
+  
         img.drop-down {
           @extend img.icon;
           opacity: 0.5;
@@ -336,10 +352,11 @@ body {
           &:hover, &focus { opacity: 1; }
         
         }
-
+  
       }
-
+  
     }
 
   }
+
 }
