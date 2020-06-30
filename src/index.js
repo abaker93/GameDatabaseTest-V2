@@ -11,21 +11,29 @@ const App = () => (
 				<div className="user">
 					<img
 						className="light-mode"
-						src="./img/icon/light-mode.svg"
+						src="./img/icon-gray/light-mode.svg"
 						alt="light mode switch"
 					/>
-					<img className="user-img" src="./img/icon/user-default.svg" alt="user" />
+					<img className="user-img" src="./img/icon-gray/user-default.svg" alt="user" />
 					<ul className="user-menu hidden">
 						<li className="user-name">email@website.com</li>
 						<li>
 							<a href="#">
-								<img className="icon" src="./img/icon/user.svg" alt="profile" />
+								<img
+									className="icon"
+									src="./img/icon-gray/user.svg"
+									alt="profile"
+								/>
 								Profile
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<img className="icon" src="./img/icon/logout.svg" alt="logout" />
+								<img
+									className="icon"
+									src="./img/icon-gray/logout.svg"
+									alt="logout"
+								/>
 								Log Out
 							</a>
 						</li>
@@ -60,8 +68,12 @@ const App = () => (
 				<ul>
 					<li className="view">
 						<div className="dropdown-trigger">
-							<img className="icon" src="./img/icon/arrow-down.svg" alt="more" />
-							<img className="icon" src="./img/icon/view-grid.svg" alt="grid view" />
+							<img className="icon" src="./img/icon-gray/caret-down.svg" alt="more" />
+							<img
+								className="icon"
+								src="./img/icon-gray/view-grid.svg"
+								alt="grid view"
+							/>
 							<p>Master View</p>
 						</div>
 						<ul className="dropdown hidden">
@@ -69,18 +81,30 @@ const App = () => (
 								<input type="search" placeholder="Find a view" />
 							</li>
 							<li reorder="true">
-								<img className="icon" src="./img/icon/view-grid.svg" alt="views" />
+								<img
+									className="icon"
+									src="./img/icon-gray/view-grid.svg"
+									alt="views"
+								/>
 								<p>Master View</p>
 							</li>
 							<li reorder="true">
-								<img className="icon" src="./img/icon/view-grid.svg" alt="views" />
+								<img
+									className="icon"
+									src="./img/icon-gray/view-grid.svg"
+									alt="views"
+								/>
 								<p>Behind the scenes</p>
 							</li>
 						</ul>
 					</li>
 					<li className="hide active">
 						<div className="dropdown-trigger">
-							<img className="icon" src="./img/icon/hide.svg" alt="hide fields" />
+							<img
+								className="icon"
+								src="./img/icon-gray/hide.svg"
+								alt="hide fields"
+							/>
 							<p>16 hidden fields</p>
 						</div>
 						<ul className="dropdown hidden">
@@ -88,138 +112,138 @@ const App = () => (
 								<input type="search" placeholder="Find a field" />
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>Total Consoles</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>Total Games</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>CIB</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>Loose</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>Other</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>SIB</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>Digital</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Paid [Consoles]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Paid [Games]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>Paid</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Value [Consoles]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Value [Games]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>Value</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>Appreciation</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Want [Consoles]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Want [Games]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Company</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Games [Link]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Consoles [Link]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Consoles</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-on.svg" alt="switch on" />
+								<img src="./img/icon-gray/switch-on.svg" alt="switch on" />
 								<p>Wish List</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Amiibo</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Behind</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Paid [Amiibo]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Value [Amiibo]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Want [Amiibo]</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Games copy</p>
 							</li>
 							<li reorder="true">
-								<img src="./img/icon/switch-off.svg" alt="switch off" />
+								<img src="./img/icon-gray/switch-off.svg" alt="switch off" />
 								<p>Controllers copy</p>
 							</li>
 						</ul>
 					</li>
 					<li className="filter active">
 						<div className="dropdown-trigger">
-							<img src="./img/icon/filter.svg" alt="filter" />
+							<img src="./img/icon-gray/filter.svg" alt="filter" />
 							<p>Filter</p>
 						</div>
 						<ul className="dropdown hidden">
 							<li>
 								<ul className="filter-options">
-									<img src="./img/icon/times.svg" alt="delete" />
+									<img src="./img/icon-gray/times.svg" alt="delete" />
 									<li>
 										<p>Where</p>
 									</li>
 									<li dropdown="true">
 										<p>Console</p>
-										<img src="./img/icon/arrow-down.svg" alt="views" />
+										<img src="./img/icon-gray/caret-down.svg" alt="views" />
 									</li>
 									<li dropdown="true">
 										<p>contains</p>
-										<img src="./img/icon/arrow-down.svg" alt="views" />
+										<img src="./img/icon-gray/caret-down.svg" alt="views" />
 									</li>
 									<li className="input">
 										<input type="text" />
@@ -228,18 +252,18 @@ const App = () => (
 							</li>
 							<li>
 								<ul className="filter-options">
-									<img src="./img/icon/times.svg" alt="delete" />
+									<img src="./img/icon-gray/times.svg" alt="delete" />
 									<li dropdown="true">
 										<p>And</p>
-										<img src="./img/icon/arrow-down.svg" alt="views" />
+										<img src="./img/icon-gray/caret-down.svg" alt="views" />
 									</li>
 									<li dropdown="true">
 										<p>Console</p>
-										<img src="./img/icon/arrow-down.svg" alt="views" />
+										<img src="./img/icon-gray/caret-down.svg" alt="views" />
 									</li>
 									<li dropdown="true">
 										<p>contains</p>
-										<img src="./img/icon/arrow-down.svg" alt="views" />
+										<img src="./img/icon-gray/caret-down.svg" alt="views" />
 									</li>
 									<li className="input">
 										<input type="text" />
@@ -247,26 +271,26 @@ const App = () => (
 								</ul>
 							</li>
 							<li className="add">
-								<img src="./img/icon/plus.svg" alt="views" />
+								<img src="./img/icon-gray/plus.svg" alt="views" />
 								<p>Add filter</p>
 							</li>
 						</ul>
 					</li>
 					<li className="group active">
 						<div className="dropdown-trigger">
-							<img src="./img/icon/group.svg" alt="group" />
+							<img src="./img/icon-gray/group.svg" alt="group" />
 							<p>Group</p>
 						</div>
 						<ul className="dropdown hidden">
 							<li>
 								<ul className="filter-options">
-									<img src="./img/icon/times.svg" alt="delete" />
+									<img src="./img/icon-gray/times.svg" alt="delete" />
 									<li>
 										<p>Group by</p>
 									</li>
 									<li>
 										<p>Company</p>
-										<img src="./img/icon/arrow-down.svg" alt="views" />
+										<img src="./img/icon-gray/caret-down.svg" alt="views" />
 									</li>
 									<li>
 										<p>from</p>
@@ -283,13 +307,13 @@ const App = () => (
 							</li>
 							<li>
 								<ul className="filter-options">
-									<img src="./img/icon/times.svg" alt="delete" />
+									<img src="./img/icon-gray/times.svg" alt="delete" />
 									<li>
 										<p>Group by</p>
 									</li>
 									<li>
 										<p>Company</p>
-										<img src="./img/icon/arrow-down.svg" alt="views" />
+										<img src="./img/icon-gray/caret-down.svg" alt="views" />
 									</li>
 									<li>
 										<p>from</p>
@@ -310,7 +334,7 @@ const App = () => (
 							</li>
 							<li className="add">
 								<p>Pick another field to group by</p>
-								<img src="./img/icon/arrow-down.svg" alt="views" />
+								<img src="./img/icon-gray/caret-down.svg" alt="views" />
 								<p className="collapse">Expand all</p>
 								<p className="collapse">Collapse all</p>
 							</li>
@@ -318,19 +342,19 @@ const App = () => (
 					</li>
 					<li className="sort active">
 						<div className="dropdown-trigger">
-							<img src="./img/icon/sort.svg" alt="sort" />
+							<img src="./img/icon-gray/sort.svg" alt="sort" />
 							<p>Sort</p>
 						</div>
 						<ul className="dropdown hidden">
 							<li>
 								<ul className="filter-options">
-									<img src="./img/icon/times.svg" alt="delete" />
+									<img src="./img/icon-gray/times.svg" alt="delete" />
 									<li>
 										<p>Sort by</p>
 									</li>
 									<li>
 										<p>Console</p>
-										<img src="./img/icon/arrow-down.svg" alt="views" />
+										<img src="./img/icon-gray/caret-down.svg" alt="views" />
 									</li>
 									<li>
 										<p>from</p>
@@ -351,13 +375,13 @@ const App = () => (
 							</li>
 							<li>
 								<ul className="filter-options">
-									<img src="./img/icon/times.svg" alt="delete" />
+									<img src="./img/icon-gray/times.svg" alt="delete" />
 									<li>
 										<p>Sort by</p>
 									</li>
 									<li>
 										<p>Console</p>
-										<img src="./img/icon/arrow-down.svg" alt="views" />
+										<img src="./img/icon-gray/caret-down.svg" alt="views" />
 									</li>
 									<li>
 										<p>from</p>
@@ -378,13 +402,13 @@ const App = () => (
 							</li>
 							<li className="add">
 								<p>Pick another field to sort by</p>
-								<img src="./img/icon/arrow-down.svg" alt="views" />
+								<img src="./img/icon-gray/caret-down.svg" alt="views" />
 							</li>
 						</ul>
 					</li>
 					<li className="search">
 						<div className="dropdown-trigger">
-							<img src="./img/icon/search.svg" alt="search" />
+							<img src="./img/icon-gray/search.svg" alt="search" />
 						</div>
 						<ul className="dropdown hidden">
 							<li className="search">
@@ -403,89 +427,243 @@ const App = () => (
 					<p>
 						<img
 							className="icon"
-							src="./img/icon/single-line-text.svg"
+							src="./img/icon-gray/single-line-text.svg"
 							alt="single line text"
 						/>
 						Console Name
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
+					<ul className="dropdown">
+						<li>
+							<img
+								className="icon"
+								src="./img/icon-white/settings.svg"
+								alt="customize field type"
+							/>
+							Customize field type
+						</li>
+						<li>
+							<img
+								className="icon"
+								src="./img/icon-white/rename.svg"
+								alt="rename field"
+							/>
+							Rename field
+						</li>
+						<li>
+							<img
+								className="icon"
+								src="./img/icon-white/info.svg"
+								alt="edit field description"
+							/>
+							Edit field description
+						</li>
+						<li>
+							<img
+								className="icon"
+								src="./img/icon-white/lock.svg"
+								alt="edit field permissions"
+							/>
+							Edit field permissions
+						</li>
+						<li>
+							<img
+								className="icon"
+								src="./img/icon-white/duplicate.svg"
+								alt="duplicate field"
+							/>
+							Duplicate field
+						</li>
+						<li disabled>
+							<img
+								className="icon"
+								src="./img/icon-white/arrow-left.svg"
+								alt="insert left"
+							/>
+							Insert left
+						</li>
+						<li>
+							<img
+								className="icon"
+								src="./img/icon-white/arrow-right.svg"
+								alt="insert right"
+							/>
+							Insert right
+						</li>
+						<li>
+							<img
+								className="icon"
+								src="./img/icon-white/sort-az.svg"
+								alt="sort A to Z"
+							/>
+							Sort A &rarr; Z
+						</li>
+						<li>
+							<img
+								className="icon"
+								src="./img/icon-white/sort-za.svg"
+								alt="sort Z to A"
+							/>
+							Sort Z &rarr; A
+						</li>
+						<li>
+							<img
+								className="icon"
+								src="./img/icon-white/filter.svg"
+								alt="add filter"
+							/>
+							Add filter
+						</li>
+						<li>
+							<img
+								className="icon"
+								src="./img/icon-white/group.svg"
+								alt="group by this field"
+							/>
+							Group by this field
+						</li>
+						<li disabled>
+							<img
+								className="icon"
+								src="./img/icon-white/hide.svg"
+								alt="hide field"
+							/>
+							Hide field
+						</li>
+						<li disabled>
+							<img
+								className="icon"
+								src="./img/icon-white/delete.svg"
+								alt="delete field"
+							/>
+							Delete field
+						</li>
+					</ul>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						Total Consoles
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						Total Games
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						CIB
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						Loose
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						Other
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						SIB
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						Digital
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						Paid
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						Value
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						Appreciation
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 				<div className="col">
 					<p>
-						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
+						<img className="icon" src="./img/icon-gray/formula.svg" alt="formula" />
 						Wish List
 					</p>
-					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
+					<img
+						className="dropdown-arrow"
+						src="./img/icon-gray/caret-down.svg"
+						alt="more"
+					/>
 				</div>
 			</section>
 
