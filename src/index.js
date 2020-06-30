@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import './styles/styles.scss';
 
 const App = () => (
-	<div>
+	<div className="light-mode">
 		<header className="page-header">
 			<section className="title">
 				<img className="logo" src="./img/logo.svg" alt="logo" />
@@ -410,77 +410,77 @@ const App = () => (
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						Total Consoles
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						Total Games
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						CIB
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						Loose
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						Other
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						SIB
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						Digital
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						Paid
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						Value
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						Appreciation
 					</p>
 					<img className="drop-down" src="./img/icon/arrow-down.svg" alt="more" />
 				</div>
-				<div>
+				<div className="col">
 					<p>
 						<img className="icon" src="./img/icon/formula.svg" alt="formula" />
 						Wish List

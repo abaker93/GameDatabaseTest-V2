@@ -311,20 +311,23 @@ body {
   main#table {
     white-space: nowrap;
     overflow: auto;
-    width: 100vw;
+    // width: 100vw;
     height: calc(100% - 166px);
     
     .test { width: 100vw; white-space: normal; }
 
     .table-header {
       background-color: $gray4;
-      background-attachment: fixed;
       border-bottom: 1px solid $gray3;
-      position: relative;
+      position: -webkit-sticky;
+      position: sticky;
       padding-left: 20px;
       top: 0;
+      width: $total-columns-width + px;
+      font-size: 0.9rem;
+      letter-spacing: 0;
   
-      div {
+      .col {
         display: inline-block;
         border-right: 1px solid $gray5;
         padding: 9px 7px;
@@ -340,7 +343,9 @@ body {
         }
   
         img.icon {
-          height: 0.8em;
+          position: relative;
+          top: 2px;
+          height: 1em;
           margin-right: 3px;
         }
   
