@@ -1,0 +1,32 @@
+$overlay-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+
+$table-padding: 20;
+
+$column-widths: (250 150 140 80 100 100 80 100 90 100 140 120);
+
+@each $width in $column-widths {
+  $i: index($column-widths, $width);
+
+  .table-header .col:nth-child(#{$i}) {
+    width: ($width - 14) + px;
+  }
+}
+
+@function sum($list, $force: false) {
+  $result: 0;
+
+  @each $item in $list {
+    @if type-of($item) == number {
+      @if $force and unit($item) {
+        $item: $item / ($item * 0 + 1);
+      }
+      @if unitless($item) {
+        $result: $result + $item;
+      }
+    }
+  }
+
+  @return $result;
+}
+
+$total-columns-width: sum($column-widths);
